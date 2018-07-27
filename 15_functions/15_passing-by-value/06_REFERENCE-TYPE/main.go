@@ -6,7 +6,7 @@ func main() {
 	m := make([]string, 1, 25)
 	fmt.Println(m) // [ ]
 	changeMe(m)
-	fmt.Println(m) // [James]]]
+	fmt.Println(m) // [James]
 }
 
 func changeMe(z []string) {
